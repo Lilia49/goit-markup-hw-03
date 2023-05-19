@@ -224,12 +224,12 @@ img {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--logo-color);
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 /* FEATURES  */
@@ -349,6 +349,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--logo-color);
   background-color: var(--brand-color-light);
+  cursor: pointer;
 
   border: 1px solid #e7e9fc;
   border-radius: 4px;
