@@ -1,0 +1,224 @@
+:root {
+  --brand-color-dark: #2e2f42;
+  --text-color: #434455;
+  --accent-color: #404bbf;
+  --white-color: #ffffff;
+  --brand-color-light: #f4f4fd;
+  --logo-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* HEADER  */
+.header {
+  background-color: var(--white-color);
+}
+/* LOGO  */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.header-logo {
+  color: var(--brand-color-dark);
+}
+
+.logo-first-part {
+  color: var(--logo-color);
+}
+
+/* NAVIGATION  */
+.site-nav .nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-dark);
+}
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
+}
+/* /HEADER  */
+
+/* ======================== MAIN PAGE ========================== */
+
+/* HERO  */
+.hero {
+  background-color: var(--brand-color-dark);
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--logo-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* CONTENT   */
+.features {
+  background-color: var(--white-color);
+}
+.subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-dark);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.services {
+  background-color: var(--white-color);
+}
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color-dark);
+}
+
+.our-team {
+  background-color: var(--brand-color-light);
+}
+
+.member-card {
+  background-color: var(--white-color);
+}
+.our-team .subtitle {
+  text-align: center;
+}
+
+.our-team .text {
+  text-align: center;
+  color: var(--text-color);
+}
+/* / CONTENT  */
+
+/* FOOTER  */
+.footer {
+  background-color: var(--brand-color-dark);
+}
+
+.footer-logo {
+  color: var(--brand-color-light);
+}
+
+.footer .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-light);
+}
+/* ======================== / MAIN PAGE ========================== */
+
+/* ======================== PORTFOLIO PAGE ========================== */
+
+.filter .filter-buttom {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--brand-color-light);
+}
+
+.filter .filter-buttom:hover,
+.filter .filter-buttom:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.filter-card {
+  background-color: var(--white-color);
+}
