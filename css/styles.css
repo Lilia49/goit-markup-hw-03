@@ -5,9 +5,6 @@
   --white-color: #ffffff;
   --brand-color-light: #f4f4fd;
   --logo-color: #4d5ae5;
-  --subtitle-margin: 8px;
-  --section-padding: 120px;
-  --title-margin: 72px;
 }
 
 body {
@@ -52,8 +49,8 @@ img {
 }
 
 .section {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features.section {
@@ -74,7 +71,7 @@ img {
 }
 
 .section-title {
-  margin-bottom: var(--title-margin);
+  margin-bottom: 72px;
 
   font-style: normal;
   font-weight: 700;
@@ -87,7 +84,7 @@ img {
 }
 
 .subtitle {
-  margin-bottom: var(--subtitle-margin);
+  margin-bottom: 8px;
 
   font-style: normal;
   font-weight: 500;
@@ -107,8 +104,10 @@ img {
 /* HEADER  */
 .header {
   background-color: var(--white-color);
-  padding-top: 26px;
-  padding-bottom: 26px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -233,7 +232,6 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 /* FEATURES  */
@@ -324,7 +322,7 @@ img {
 
 .portfolio-section {
   padding-top: 96px;
-  padding-bottom: var(--section-padding);
+  padding-bottom: 120px;
 }
 
 .filters-container {
@@ -353,7 +351,6 @@ img {
 .filter-buttom:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
